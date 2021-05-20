@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyShotShell : MonoBehaviour
 {
@@ -10,13 +11,24 @@ public class EnemyShotShell : MonoBehaviour
     [SerializeField]
     private AudioClip shotSound;
     private int interval;
-    
+    public float stopTimer = 5.0f;
+    [SerializeField]
+    private Text stopLabel;
     // Update is called once per frame
     void FixedUpdate()
     {
         interval += 1;
+
+        stopTimer -= Time.deltaTime;
+
+        if (stopTimer < 0)
+        {
+            stopTimer = 0;
+        }
+
+        stopLabel.text = "" + stopTimer.ToString("0");
         
-        if (interval % 70 == 0)
+        if (interval % 60 == 0 && stopTimer <= 0)
         {
             GameObject enemyShell = Instantiate(enemyShellPrefab, transform.position, Quaternion.identity);
 
@@ -28,5 +40,11 @@ public class EnemyShotShell : MonoBehaviour
 
             Destroy(enemyShell, 3.0f);
         }
+    }
+    public void AddStopTimer(float amount)
+    {
+        stopTimer += amount;
+
+        stopLabel.text = "" + stopTimer.ToString("0");
     }
 }
