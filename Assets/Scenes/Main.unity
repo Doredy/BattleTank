@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -472,7 +472,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotSpeed: 500
-  enemyShellPrefab: {fileID: 1712744011649840632, guid: 8374274cfe9759548bbd908d9256d406, type: 3}
+  enemyShellPrefab: {fileID: 1712744011649840632, guid: 8374274cfe9759548bbd908d9256d406,
+    type: 3}
   shotSound: {fileID: 8300000, guid: 2cc1bc422a5efba49bf7294d89f9875c, type: 3}
   stopTimer: 5
   stopLabel: {fileID: 771571357}
@@ -926,8 +927,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7ec9afcf0b1d9459eb58ee1005cc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectPrefab: {fileID: 1126461894715624, guid: b9e167e31f640b34f87caab122fca598, type: 3}
-  effectPrefab2: {fileID: 1000012560919920, guid: 85a8865d1bf4a63478038fae23776de8, type: 3}
+  effectPrefab: {fileID: 1634767862067424, guid: 007c57e2df8e9b144b99f471b84f3d56,
+    type: 3}
+  effectPrefab2: {fileID: 1973075987484898, guid: bccc7a794e75b2a44a4b0dac69160b7b,
+    type: 3}
   objectHP: 3
   itemPrefabs: []
   scoreValue: 0
@@ -1039,8 +1042,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7ec9afcf0b1d9459eb58ee1005cc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectPrefab: {fileID: 1126461894715624, guid: b9e167e31f640b34f87caab122fca598, type: 3}
-  effectPrefab2: {fileID: 1000012560919920, guid: 85a8865d1bf4a63478038fae23776de8, type: 3}
+  effectPrefab: {fileID: 1634767862067424, guid: 007c57e2df8e9b144b99f471b84f3d56,
+    type: 3}
+  effectPrefab2: {fileID: 1973075987484898, guid: bccc7a794e75b2a44a4b0dac69160b7b,
+    type: 3}
   objectHP: 99
   itemPrefabs: []
   scoreValue: 0
@@ -1164,7 +1169,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotSpeed: 500
-  enemyShellPrefab: {fileID: 1712744011649840632, guid: 8374274cfe9759548bbd908d9256d406, type: 3}
+  enemyShellPrefab: {fileID: 1712744011649840632, guid: 8374274cfe9759548bbd908d9256d406,
+    type: 3}
   shotSound: {fileID: 8300000, guid: 2cc1bc422a5efba49bf7294d89f9875c, type: 3}
   stopTimer: 5
   stopLabel: {fileID: 801864475}
@@ -1217,8 +1223,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7ec9afcf0b1d9459eb58ee1005cc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectPrefab: {fileID: 1126461894715624, guid: b9e167e31f640b34f87caab122fca598, type: 3}
-  effectPrefab2: {fileID: 1000010254994808, guid: 9defeac88977c0d448aa4541073ee9e4, type: 3}
+  effectPrefab: {fileID: 1634767862067424, guid: 007c57e2df8e9b144b99f471b84f3d56,
+    type: 3}
+  effectPrefab2: {fileID: 1973075987484898, guid: bccc7a794e75b2a44a4b0dac69160b7b,
+    type: 3}
   objectHP: 5
   itemPrefabs:
   - {fileID: 3551892964259970613, guid: baf3f6fef86f76143976f71347a4e75b, type: 3}
@@ -1520,8 +1528,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7ec9afcf0b1d9459eb58ee1005cc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectPrefab: {fileID: 1126461894715624, guid: b9e167e31f640b34f87caab122fca598, type: 3}
-  effectPrefab2: {fileID: 1000012560919920, guid: 85a8865d1bf4a63478038fae23776de8, type: 3}
+  effectPrefab: {fileID: 1634767862067424, guid: 007c57e2df8e9b144b99f471b84f3d56,
+    type: 3}
+  effectPrefab2: {fileID: 1973075987484898, guid: bccc7a794e75b2a44a4b0dac69160b7b,
+    type: 3}
   objectHP: 3
   itemPrefabs: []
   scoreValue: 0
@@ -1694,8 +1704,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d76d097fbd6bd5649a7e9d341e93c6cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectPrefab1: {fileID: 1000012560919920, guid: 85a8865d1bf4a63478038fae23776de8, type: 3}
-  effectPrefab2: {fileID: 1126461894715624, guid: b9e167e31f640b34f87caab122fca598, type: 3}
+  effectPrefab1: {fileID: 1000012560919920, guid: 85a8865d1bf4a63478038fae23776de8,
+    type: 3}
+  effectPrefab2: {fileID: 1126461894715624, guid: b9e167e31f640b34f87caab122fca598,
+    type: 3}
   tankHP: 10
   HPLabel: {fileID: 931235597}
   tankMaxHP: 20
@@ -2028,8 +2040,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7ec9afcf0b1d9459eb58ee1005cc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectPrefab: {fileID: 1126461894715624, guid: b9e167e31f640b34f87caab122fca598, type: 3}
-  effectPrefab2: {fileID: 1000010254994808, guid: 9defeac88977c0d448aa4541073ee9e4, type: 3}
+  effectPrefab: {fileID: 1634767862067424, guid: 007c57e2df8e9b144b99f471b84f3d56,
+    type: 3}
+  effectPrefab2: {fileID: 1973075987484898, guid: bccc7a794e75b2a44a4b0dac69160b7b,
+    type: 3}
   objectHP: 5
   itemPrefabs:
   - {fileID: 3551892964259970613, guid: baf3f6fef86f76143976f71347a4e75b, type: 3}
@@ -2218,8 +2232,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7ec9afcf0b1d9459eb58ee1005cc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectPrefab: {fileID: 1126461894715624, guid: b9e167e31f640b34f87caab122fca598, type: 3}
-  effectPrefab2: {fileID: 1000012560919920, guid: 85a8865d1bf4a63478038fae23776de8, type: 3}
+  effectPrefab: {fileID: 1634767862067424, guid: 007c57e2df8e9b144b99f471b84f3d56,
+    type: 3}
+  effectPrefab2: {fileID: 1973075987484898, guid: bccc7a794e75b2a44a4b0dac69160b7b,
+    type: 3}
   objectHP: 99
   itemPrefabs: []
   scoreValue: 0
@@ -2657,7 +2673,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotSpeed: 500
-  shellPrefab: {fileID: 8613338871580055386, guid: 1cb318057ddef9a41a557f01d43310cc, type: 3}
+  shellPrefab: {fileID: 8613338871580055386, guid: 1cb318057ddef9a41a557f01d43310cc,
+    type: 3}
   shotSound: {fileID: 8300000, guid: 2cc1bc422a5efba49bf7294d89f9875c, type: 3}
   shotCount: 10
   shellLabel: {fileID: 1851673623}
@@ -3278,8 +3295,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7ec9afcf0b1d9459eb58ee1005cc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectPrefab: {fileID: 1126461894715624, guid: b9e167e31f640b34f87caab122fca598, type: 3}
-  effectPrefab2: {fileID: 1000012560919920, guid: 85a8865d1bf4a63478038fae23776de8, type: 3}
+  effectPrefab: {fileID: 1634767862067424, guid: 007c57e2df8e9b144b99f471b84f3d56,
+    type: 3}
+  effectPrefab2: {fileID: 1973075987484898, guid: bccc7a794e75b2a44a4b0dac69160b7b,
+    type: 3}
   objectHP: 99
   itemPrefabs: []
   scoreValue: 0
@@ -3470,8 +3489,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7ec9afcf0b1d9459eb58ee1005cc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectPrefab: {fileID: 1126461894715624, guid: b9e167e31f640b34f87caab122fca598, type: 3}
-  effectPrefab2: {fileID: 1000012560919920, guid: 85a8865d1bf4a63478038fae23776de8, type: 3}
+  effectPrefab: {fileID: 1634767862067424, guid: 007c57e2df8e9b144b99f471b84f3d56,
+    type: 3}
+  effectPrefab2: {fileID: 1973075987484898, guid: bccc7a794e75b2a44a4b0dac69160b7b,
+    type: 3}
   objectHP: 3
   itemPrefabs: []
   scoreValue: 0
