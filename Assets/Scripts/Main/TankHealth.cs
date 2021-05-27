@@ -14,6 +14,8 @@ public class TankHealth : MonoBehaviour
     [SerializeField]
     private Text HPLabel;
     public int tankMaxHP = 10;
+    public bool isInvincible;
+    public float invincibleTime;
 
     private void Start()
     {
@@ -23,6 +25,11 @@ public class TankHealth : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        //–³“G‚©‚Ç‚¤‚©‚ÌŠm”F
+        if (isInvincible == true)
+        {
+            return;
+        }
         if (other.gameObject.tag == "EnemyShell")
         {
             tankHP -= 1;
@@ -58,5 +65,23 @@ public class TankHealth : MonoBehaviour
             tankHP = tankMaxHP;
         }
         HPLabel.text = "HP:" + tankHP;
+    }
+    private void Update()
+    {
+        //–³“G‚©‚ÌŠm”F
+        if (isInvincible == true)
+        {
+
+            //–³“G‚È‚ç–³“GŽžŠÔ‚ðŒ¸‚ç‚·
+            invincibleTime -= Time.deltaTime;
+
+            //–³“GŽžŠÔ‚ª‚OˆÈ‰º‚É‚È‚Á‚½‚ç
+            if (invincibleTime <= 0)
+            {
+                //–³“Gó‘Ô‚ð‚â‚ß‚é
+                isInvincible = false;
+                invincibleTime = 0;
+            }
+        }
     }
 }

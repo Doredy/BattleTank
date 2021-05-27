@@ -1704,13 +1704,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d76d097fbd6bd5649a7e9d341e93c6cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectPrefab1: {fileID: 1000012560919920, guid: 85a8865d1bf4a63478038fae23776de8,
+  effectPrefab1: {fileID: 1634767862067424, guid: 007c57e2df8e9b144b99f471b84f3d56,
     type: 3}
-  effectPrefab2: {fileID: 1126461894715624, guid: b9e167e31f640b34f87caab122fca598,
+  effectPrefab2: {fileID: 1973075987484898, guid: bccc7a794e75b2a44a4b0dac69160b7b,
     type: 3}
   tankHP: 10
   HPLabel: {fileID: 931235597}
   tankMaxHP: 20
+  isInvincible: 0
+  invincibleTime: 0
 --- !u!114 &859496077
 MonoBehaviour:
   m_ObjectHideFlags: 0
